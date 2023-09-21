@@ -56,6 +56,9 @@ header nav a:hover {
   width: 42%;
   float: inline-start;
 }
+.container aside p {
+  margin-left: 0.3rem;
+}
 .container .clear {
   clear: both;
 }/*# sourceMappingURL=style.css.map */
