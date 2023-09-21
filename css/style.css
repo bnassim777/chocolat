@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
 html {
   background-color: lightseagreen;
   margin-left: 20%;
@@ -36,6 +41,7 @@ header nav a:hover {
   display: flex;
 }
 .container h2 {
+  margin-top: 2rem;
   background-color: #873e23;
   border-radius: 5px;
   padding: 10px;
@@ -50,14 +56,21 @@ header nav a:hover {
 }
 .container section p {
   color: white;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: baseline;
 }
 .container aside {
   background-color: white;
   width: 42%;
+  height: 45rem;
   float: inline-start;
 }
 .container aside p {
   margin-left: 0.3rem;
+  height: auto;
+  text-align: fit-content;
 }
 .container .clear {
   clear: both;

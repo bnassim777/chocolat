@@ -1,4 +1,8 @@
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+}
 
 @media (min-width: 769px) and (max-width: 1024px) {}
 
@@ -46,6 +50,7 @@ header {
     display: flex;
 
     h2 {
+        margin-top: 2rem;
         background-color: #873e23;
         border-radius: 5px;
         padding: 10px;
@@ -61,15 +66,21 @@ header {
 
         p {
             color: white;
+            height: fit-content;
+            display: flex;
+            justify-content: baseline;
         }
     }
 
     aside {
         background-color: white;
         width: 42%;
+        height: 45rem;
         float: inline-start;
         p{
             margin-left: 0.3rem;
+            height: auto;
+            text-align: fit-content;
         }
     }
 
