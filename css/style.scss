@@ -1,12 +1,8 @@
-@media (max-width: 768px) {
-  }
-  
-  @media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 768px) {}
 
-  }
-  
-  @media (min-width: 1025px) {
-  }
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) {}
 
 html {
     background-color: lightseagreen;
@@ -18,17 +14,16 @@ header {
     text-align: center;
 
     nav {
-        border: yellow 5px solid;
         justify-content: space-evenly;
-        background-color: brown;
+        background-color: #873e23;
         width: 100%;
         display: flex;
+        margin-bottom: 1rem;
 
         a {
             display: inline-block;
             text-decoration: none;
             color: white;
-            border: green 5px solid; 
             transition: background-color 0.20s;
             height: 36px;
             line-height: 36px;
@@ -46,30 +41,36 @@ header {
 
     }
 }
-.container{
+
+.container {
     display: flex;
-    h2{
-        background-color: chocolate;
+
+    h2 {
+        background-color: #873e23;
         border-radius: 5px;
         padding: 10px;
         margin: 0;
         text-align: center;
     }
-    section{
+
+    section {
         display: flex;
         flex-direction: column;
-        width:58%;
+        width: 58%;
         height: auto;
-        border: black 5px solid;
+
+        p {
+            color: white;
+        }
     }
-    aside{
-        border: red 5px solid;
+
+    aside {
         background-color: white;
-        width: 40%;
+        width: 42%;
         float: inline-start;
     }
-    .clear{
+
+    .clear {
         clear: both;
     }
 }
-    

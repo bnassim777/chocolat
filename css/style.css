@@ -8,17 +8,16 @@ header {
   text-align: center;
 }
 header nav {
-  border: yellow 5px solid;
   justify-content: space-evenly;
-  background-color: brown;
+  background-color: #873e23;
   width: 100%;
   display: flex;
+  margin-bottom: 1rem;
 }
 header nav a {
   display: inline-block;
   text-decoration: none;
   color: white;
-  border: green 5px solid;
   transition: background-color 0.2s;
   height: 36px;
   line-height: 36px;
@@ -37,7 +36,7 @@ header nav a:hover {
   display: flex;
 }
 .container h2 {
-  background-color: chocolate;
+  background-color: #873e23;
   border-radius: 5px;
   padding: 10px;
   margin: 0;
@@ -48,12 +47,13 @@ header nav a:hover {
   flex-direction: column;
   width: 58%;
   height: auto;
-  border: black 5px solid;
+}
+.container section p {
+  color: white;
 }
 .container aside {
-  border: red 5px solid;
   background-color: white;
-  width: 40%;
+  width: 42%;
   float: inline-start;
 }
 .container .clear {
