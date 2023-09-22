@@ -12,6 +12,9 @@ html {
 header {
   text-align: center;
 }
+header img {
+  border-radius: 5px;
+}
 header nav {
   justify-content: space-evenly;
   background-color: #873e23;
@@ -41,12 +44,11 @@ header nav a:hover {
   display: flex;
 }
 .container h2 {
-  margin-top: 2rem;
   background-color: #873e23;
   border-radius: 5px;
   padding: 10px;
-  margin: 0;
   text-align: center;
+  margin-top: 2rem;
 }
 .container section {
   display: flex;
@@ -63,14 +65,17 @@ header nav a:hover {
 }
 .container aside {
   background-color: white;
-  width: 42%;
+  width: 32%;
   height: 45rem;
+  margin-left: 5.5rem;
   float: inline-start;
 }
 .container aside p {
-  margin-left: 0.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   height: auto;
-  text-align: fit-content;
+  text-align: justify;
+  display: flex;
 }
 .container .clear {
   clear: both;

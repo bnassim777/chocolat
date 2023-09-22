@@ -6,8 +6,6 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {}
 
-@media (min-width: 1025px) {}
-
 html {
     background-color: lightseagreen;
     margin-left: 20%;
@@ -16,6 +14,10 @@ html {
 
 header {
     text-align: center;
+
+    img{
+        border-radius: 5px;
+    }
 
     nav {
         justify-content: space-evenly;
@@ -44,18 +46,18 @@ header {
         }
 
     }
+
 }
 
 .container {
     display: flex;
 
     h2 {
-        margin-top: 2rem;
         background-color: #873e23;
         border-radius: 5px;
         padding: 10px;
-        margin: 0;
         text-align: center;
+        margin-top: 2rem;
     }
 
     section {
@@ -74,13 +76,16 @@ header {
 
     aside {
         background-color: white;
-        width: 42%;
+        width: 32%;
         height: 45rem;
+        margin-left: 5.5rem;
         float: inline-start;
         p{
-            margin-left: 0.3rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
             height: auto;
-            text-align: fit-content;
+            text-align: justify;
+            display:flex;
         }
     }
 
