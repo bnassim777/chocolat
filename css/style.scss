@@ -15,9 +15,6 @@ html {
 header {
     text-align: center;
 
-    img{
-        border-radius: 5px;
-    }
 
     nav {
         justify-content: space-evenly;
@@ -51,6 +48,9 @@ header {
 
 .container {
     display: flex;
+    img{
+        border-radius: 5px;
+    }
 
     h2 {
         background-color: #873e23;
@@ -65,6 +65,9 @@ header {
         flex-direction: column;
         width: 58%;
         height: auto;
+        h2{
+            width:37rem;
+        }
 
         p {
             color: white;

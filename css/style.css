@@ -12,9 +12,6 @@ html {
 header {
   text-align: center;
 }
-header img {
-  border-radius: 5px;
-}
 header nav {
   justify-content: space-evenly;
   background-color: #873e23;
@@ -43,6 +40,9 @@ header nav a:hover {
 .container {
   display: flex;
 }
+.container img {
+  border-radius: 5px;
+}
 .container h2 {
   background-color: #873e23;
   border-radius: 5px;
@@ -55,6 +55,9 @@ header nav a:hover {
   flex-direction: column;
   width: 58%;
   height: auto;
+}
+.container section h2 {
+  width: 37rem;
 }
 .container section p {
   color: white;
